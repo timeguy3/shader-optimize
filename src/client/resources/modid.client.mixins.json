@@ -1,10 +1,11 @@
 {
   "required": false,
-  "package": "com.example.mixin.client",
+  "package": "com.example.client.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "ExampleClientMixin",
-    "P620VramBandwidthMixin"
+    "P620VramBandwidthMixin",
+    "P620CommandMixin"
   ],
   "injectors": {
     "defaultRequire": 0
